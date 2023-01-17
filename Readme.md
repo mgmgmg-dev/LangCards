@@ -10,7 +10,7 @@ It loads up a big chunk of words along with their translation and then presents 
 
 ## How do I load a language?
 
-Just pop the .lang file inside the languages folder.
+Just pop a .lang file inside the languages folder.
 
 ## How do I make a .lang file?
 
