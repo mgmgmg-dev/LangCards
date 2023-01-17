@@ -1,0 +1,20 @@
+This is a tutorial on how to make a valid lang file.
+Everything you write in this part of the file is ignored by the program.
+The words / sentences start after a "!SOF!" line, as shown below.
+They should be separated by a double colon.
+The ones on the left should be in the file's native language,
+while the ones on the right should be in the foreign language.
+
+!SOF!
+word::foreign word
+a very cool sentence::a very cool foreign sentence
+SOMETHING
+
+See where I put "SOMETHING"? That's the end of the file.
+You should always put some word or sentence at the end
+of the word list, otherwise the program won't load them.
+
+When the program displays all the files, it is told to
+remove underscores from their name.
+I recommend calling your lang file something along
+the lines as "NativeLanguage_to_ForeignLanguage"
