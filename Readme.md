@@ -1,7 +1,5 @@
 # LangCards
 
----
-
 ## About this repo
 
 This repository was made to help people memorise foreign words.
